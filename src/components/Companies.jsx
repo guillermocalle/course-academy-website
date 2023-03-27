@@ -1,4 +1,10 @@
 import React from "react";
+import {
+  companyLogo1,
+  companyLogo2,
+  companyLogo3,
+  companyLogo4,
+} from "../assets";
 
 const Companies = () => {
   return (
@@ -11,6 +17,12 @@ const Companies = () => {
           Leading companies use the same courses to help employees keep their
           skills fresh.
         </p>
+        <div className="flex justify-center py-8 gap-8">
+          <img src={companyLogo1} />
+          <img src={companyLogo2} />
+          <img src={companyLogo3} />
+          <img src={companyLogo4} />
+        </div>
       </div>
     </div>
   );
