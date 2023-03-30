@@ -45,7 +45,7 @@ const Courses = () => {
   };
 
   return (
-    <div className="w-full bg-[#c0ddff] py-32">
+    <div className="w-full bg-[#F0F7FF] py-32">
       <div className="md:max-w-[1480px] m-auto max-w-[600px]">
         <h1 className="py-3 text-3xl font-bold">
           Most Popular <span className="text-[#4979d4]">Courses</span>
