@@ -6,6 +6,7 @@ import {
   Courses,
   Achievement,
   Categories,
+  Feedback,
 } from "./components";
 import "./App.css";
 
@@ -18,6 +19,7 @@ const App = () => {
       <Courses />
       <Achievement />
       <Categories />
+      <Feedback />
     </div>
   );
 };
