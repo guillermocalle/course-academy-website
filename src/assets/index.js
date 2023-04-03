@@ -11,6 +11,7 @@ import blogImg1 from "./blog-1.png";
 import achievement from "./achievement.png";
 import avatar from "./avatar.png";
 import quotationMark from "./quotationMark.png";
+import cta from "./cta.png";
 
 export {
   logo,
@@ -26,4 +27,5 @@ export {
   achievement,
   avatar,
   quotationMark,
+  cta,
 };

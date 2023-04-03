@@ -7,6 +7,7 @@ import {
   Achievement,
   Categories,
   Feedback,
+  CTA,
 } from "./components";
 import "./App.css";
 
@@ -20,6 +21,7 @@ const App = () => {
       <Achievement />
       <Categories />
       <Feedback />
+      <CTA />
     </div>
   );
 };
