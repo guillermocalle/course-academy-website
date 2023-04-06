@@ -7,12 +7,12 @@ const Hero = () => {
     <div className="w-full bg-white py-24">
       <div className="md:max-w-[1480px] m-auto grid md:grid-cols-2 max-w-[600px]">
         <div className="flex flex-col justify-start gap-4">
-          <p className="py-2 text-2xl text-[#4979d4] font-medium">
+          <p className="py-2 text-2xl text-[#0075FD] font-medium">
             START TO SUCCESS
           </p>
           <h1 className="md:leading-[72px] py-2 md:text-6xl text-5xl font-semibold">
-            Access To <span className="text-[#4979d4]">5000+</span> Courses from{" "}
-            <span className="text-[#4979d4]">300</span> Instructors &
+            Access To <span className="text-[#0075FD]">5000+</span> Courses from{" "}
+            <span className="text-[#0075FD]">300</span> Instructors &
             Institutions
           </h1>
           <p className="py-2 text-lg text-gray-600">

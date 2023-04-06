@@ -23,19 +23,19 @@ const Footer = () => {
           <h3 className="py-2 text-[#6D737A]">Email: example@gmail.com</h3>
           <div className="flex gap-4 py-4">
             <div className="p-4 bg-[#F0F7FF] rounded-xl">
-              <FaFacebookF size={25} style={{ color: "#4979d4" }} />
+              <FaFacebookF size={25} style={{ color: "#0075FD" }} />
             </div>
             <div className="p-4 bg-[#F0F7FF] rounded-xl">
-              <FaLinkedinIn size={25} style={{ color: "#4979d4" }} />
+              <FaLinkedinIn size={25} style={{ color: "#0075FD" }} />
             </div>
             <div className="p-4 bg-[#F0F7FF] rounded-xl">
-              <FaDribbble size={25} style={{ color: "#4979d4" }} />
+              <FaDribbble size={25} style={{ color: "#0075FD" }} />
             </div>
             <div className="p-4 bg-[#F0F7FF] rounded-xl">
-              <FaBehance size={25} style={{ color: "#4979d4" }} />
+              <FaBehance size={25} style={{ color: "#0075FD" }} />
             </div>
             <div className="p-4 bg-[#F0F7FF] rounded-xl">
-              <FaInstagram size={25} style={{ color: "#4979d4" }} />
+              <FaInstagram size={25} style={{ color: "#0075FD" }} />
             </div>
           </div>
         </div>
@@ -75,11 +75,16 @@ const Footer = () => {
               className="bg-[#F2F3F4] p-4 w-full rounded"
               placeholder="Email here"
             />
-            <button className="max-[780px]:w-full my-4 px-5 py-3 rounded-md bg-[#4979d4] text-white font-medium">
+            <button className="max-[780px]:w-full my-4 px-5 py-3 rounded-md bg-[#0075FD] text-white font-medium">
               Suscribe Now
             </button>
           </form>
         </div>
+      </div>
+      <div className="mt-8">
+        <p className="text-[#6D737A] text-center">
+          © Jr. Developer 2023 - All Rights Reserved
+        </p>
       </div>
     </div>
   );

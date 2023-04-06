@@ -24,7 +24,7 @@ const Navbar = () => {
         <button className="flex justify-between items-center bg-transparent px-6 gap-2">
           <img src={lock} /> Login
         </button>
-        <button className="px-6 py-3 rounded-md bg-[#4979d4] text-white font-bold">
+        <button className="px-6 py-3 rounded-md bg-[#0075FD] text-white font-bold">
           Sign Up For Free
         </button>
       </nav>

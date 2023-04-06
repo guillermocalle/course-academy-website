@@ -9,13 +9,13 @@ const CTA = () => {
 
         <div>
           <h1 className="py-2 text-3xl font-semibold">
-            Join <span className="text-[#4979d4]">World's largest</span>learning
-            platform today
+            Join <span className="text-[#0075FD]">World's largest </span>
+            learning platform today
           </h1>
           <p className="py-2 text-lg text-gray-600">
             Start learning by registering for free
           </p>
-          <button className="max-[780px]:w-full my-4 px-8 py-5 rounded-md bg-[#4979d4] text-white font-bold">
+          <button className="max-[780px]:w-full my-4 px-8 py-5 rounded-md bg-[#0075FD] text-white font-bold">
             Sign Up For Free
           </button>
         </div>

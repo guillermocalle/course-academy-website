@@ -10,7 +10,7 @@ const Achievement = () => {
       <div className="md:max-w-[1480px] m-auto grid md:grid-cols-2 max-w-[600px]">
         <div className="flex flex-col justify-center">
           <h1 className="md:leading-[72px] text-3xl font-bold">
-            Our <span className="text-[#4979d4]">Achievements</span>
+            Our <span className="text-[#0075FD]">Achievements</span>
           </h1>
           <p className="text-lg text-gray-600">
             Various versions have evolved over the years, sometimes by accident.

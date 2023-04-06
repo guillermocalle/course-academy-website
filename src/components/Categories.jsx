@@ -15,7 +15,7 @@ const Categories = () => {
     <div className="w-full bg-[#F0F7FF] py-24">
       <div className="md:max-w-[1480px] m-auto max-w-[600px]">
         <h1 className="md:leading-[72px] text-3xl font-bold">
-          Most <span className="text-[#4979d4]">Popular Categories</span>
+          Most <span className="text-[#0075FD]">Popular Categories</span>
         </h1>
         <p className="text-lg text-gray-600">
           Various versions have evolved over the years, sometimes by accident.
