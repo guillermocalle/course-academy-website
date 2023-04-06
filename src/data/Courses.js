@@ -1,5 +1,3 @@
-import { achievement } from "../assets";
-
 export const courses = [
   {
     id: 1,
@@ -36,39 +34,36 @@ export const courses = [
   },
   {
     id: 5,
-    title: "Cuphead",
-    category: "Flutter",
-    rating: 4,
+    title:
+      "Zero to Advanced Web Development 2023: HTML, CSS, JS, ReactJS, Spring Boot, REST API, MySQL",
+    category: "Web Dev",
+    rating: 5,
     price: "$19.99",
-    linkImg:
-      "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/c/cuphead-switch/hero?_a=AJADJWI0",
+    linkImg: "https://source.unsplash.com/k-rKfqSm4L4",
   },
   {
     id: 6,
-    title: "Minecraft",
-    category: "Flutter",
+    title: "Professional Piano Course 2023: From Zero to Expert!",
+    category: "Music",
     rating: 4,
     price: "$29.99",
-    linkImg:
-      "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/m/minecraft-switch/hero?_a=AJADJWI0",
+    linkImg: "https://source.unsplash.com/b57RqS-nQ1c",
   },
   {
     id: 7,
-    title: "Mario + Rabbids® Kingdom Battle",
-    category: "Flutter",
+    title: "The complete graphic design course 2022",
+    category: "Design",
     rating: 4,
     price: "$59.99",
-    linkImg:
-      "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/u/unravel-two-switch/hero?_a=AJADJWI0",
+    linkImg: "https://source.unsplash.com/v9vII5gV8Lw",
   },
   {
     id: 8,
-    title: "Unravel Two",
-    category: "Flutter",
+    title: "Professional Photography Course 2022: From Zero to Expert!",
+    category: "Photography",
     rating: 4,
     price: "$59.99",
     sale: 63,
-    linkImg:
-      "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/u/unravel-two-switch/hero?_a=AJADJWI0",
+    linkImg: "https://source.unsplash.com/6Io0psUdasY",
   },
 ];
