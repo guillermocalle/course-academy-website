@@ -5,7 +5,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 const Hero = () => {
   return (
     <div className="w-full bg-white py-24">
-      <div className="md:max-w-[1480px] m-auto grid md:grid-cols-2 max-w-[600px]">
+      <div className="md:max-w-[1480px] m-auto grid md:grid-cols-2 max-w-[600px] px-4 md:px-0">
         <div className="flex flex-col justify-start gap-4">
           <p className="py-2 text-2xl text-[#0075FD] font-medium">
             START TO SUCCESS
@@ -18,7 +18,7 @@ const Hero = () => {
           <p className="py-2 text-lg text-gray-600">
             Various versions have evolved over the years, sometimes by accident.
           </p>
-          <form className="bg-white border max-w-[700px] p-4 input-box-shadow rounded-md flex justify-between">
+          <form className="bg-white border max-w-[500px] p-4 input-box-shadow rounded-md flex justify-between">
             <input
               className="bg-white"
               type="text"

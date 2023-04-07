@@ -2,40 +2,63 @@ import React, { useState } from "react";
 import { logo, lock, hamburgerMenu, close } from "../assets";
 
 const Navbar = () => {
-  const [showMenu, setShowMenu] = useState(false);
+  const [toggle, setToggle] = useState(false);
+  const handleClick = () => setToggle(!toggle);
 
   return (
-    <header className="flex items-center justify-between xl:justify-start w-full py-4 px-8 h-[80px] z-50 bg-white border-b">
-      <div className="xl:w-1/6 text-center">
+    <div className="w-full h-[80px] bg-white border-b">
+      <div className="md:max-w-[1480px] max-w-[600px] m-auto w-full h-full flex justify-between items-center md:px-0 px-4">
         <img src={logo} className="h-[25px]" />
+
+        <div className="hidden md:flex items-center">
+          <ul className="flex gap-4">
+            <li>Home</li>
+            <li>About</li>
+            <li>Support</li>
+            <li>Platform</li>
+            <li>Pricing</li>
+          </ul>
+        </div>
+        <div className="hidden md:flex">
+          <button className="flex justify-between items-center bg-transparent px-6 gap-2">
+            <img src={lock} />
+            Login
+          </button>
+          <button className="px-8 py-3 rounded-md bg-[#0075FD] text-white font-bold">
+            Sign Up For Free
+          </button>
+        </div>
+
+        <div className="md:hidden" onClick={handleClick}>
+          <img src={toggle ? close : hamburgerMenu} />
+        </div>
       </div>
 
-      <nav
-        className={`fixed bg-white w-[80%] md:w-[40%] xl:w-full h-full ${
-          showMenu ? "left-0" : "-left-full"
-        } top-0 xl:static flex-1 flex flex-col xl:flex-row items-center justify-center gap-10 transition-all duration-500`}
+      <div
+        className={
+          toggle
+            ? "absolute z-10 p-4 bg-white w-full px-8 md:hidden border-b"
+            : "hidden"
+        }
       >
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Support</a>
-        <a href="#">Platform</a>
-        <a href="#">Pricing</a>
-
-        <button className="flex justify-between items-center bg-transparent px-6 gap-2">
-          <img src={lock} /> Login
-        </button>
-        <button className="px-6 py-3 rounded-md bg-[#0075FD] text-white font-bold">
-          Sign Up For Free
-        </button>
-      </nav>
-
-      <button
-        onClick={() => setShowMenu(!showMenu)}
-        className="xl:hidden text-2xl p-2"
-      >
-        {showMenu ? <img src={close} /> : <img src={hamburgerMenu} />}
-      </button>
-    </header>
+        <ul>
+          <li className="p-4 hover:bg-gray-100">Home</li>
+          <li className="p-4 hover:bg-gray-100">About</li>
+          <li className="p-4 hover:bg-gray-100">Support</li>
+          <li className="p-4 hover:bg-gray-100">Platform</li>
+          <li className="p-4 hover:bg-gray-100">Pricing</li>
+          <div className="flex flex-col my-4 gap-4">
+            <button className="border border-[0075FD] flex justify-center items-center bg-transparent px-6 gap-2 py-4">
+              <img src={lock} />
+              Login
+            </button>
+            <button className="px-8 py-5 rounded-md bg-[#0075FD] text-white font-bold">
+              Sign Up For Free
+            </button>
+          </div>
+        </ul>
+      </div>
+    </div>
   );
 };
 
