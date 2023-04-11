@@ -13,10 +13,10 @@ const Navbar = () => {
         <div className="hidden md:flex items-center">
           <ul className="flex gap-4">
             <li>Home</li>
-            <li>About</li>
-            <li>Support</li>
-            <li>Platform</li>
+            <li>Courses</li>
             <li>Pricing</li>
+            <li>Platform</li>
+            <li>About</li>
           </ul>
         </div>
         <div className="hidden md:flex">
@@ -43,10 +43,10 @@ const Navbar = () => {
       >
         <ul>
           <li className="p-4 hover:bg-gray-100">Home</li>
-          <li className="p-4 hover:bg-gray-100">About</li>
-          <li className="p-4 hover:bg-gray-100">Support</li>
-          <li className="p-4 hover:bg-gray-100">Platform</li>
+          <li className="p-4 hover:bg-gray-100">Courses</li>
           <li className="p-4 hover:bg-gray-100">Pricing</li>
+          <li className="p-4 hover:bg-gray-100">Platform</li>
+          <li className="p-4 hover:bg-gray-100">About</li>
           <div className="flex flex-col my-4 gap-4">
             <button className="border border-[0075FD] flex justify-center items-center bg-transparent px-6 gap-2 py-4">
               <img src={lock} />
