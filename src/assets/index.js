@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+// import remotelogo from "./remotelogo.svg";
 import lock from "./lock.svg";
 import hamburgerMenu from "./hamburgerMenu.svg";
 import close from "./close.svg";
@@ -15,6 +16,7 @@ import cta from "./cta.png";
 
 export {
   logo,
+  // remotelogo,
   lock,
   hamburgerMenu,
   close,
